@@ -1,0 +1,40 @@
+.schedule_consultation_btn{
+    padding: 8px 12px !important;
+    font-size: 14px !important;
+    color: #ffffff !important;
+    font-family: Rubik !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    letter-spacing: 0px !important;
+    text-transform: none !important;
+    -webkit-border-radius: 12px !important;
+    border-radius: 12px !important;
+    background-color: var(--primary-color) !important;
+}
+.navlink_a{
+    font-family: Rubik !important;
+    color: var(--primary-dark-brown) !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    text-transform: none !important;
+    letter-spacing: 0px !important;
+}
+.navlink_a a{
+    font-family: Rubik !important;
+    color: var(--primary-dark-brown) !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    text-transform: none !important;
+    letter-spacing: 0px !important;
+}
+.navlink_a .dropdown-item{
+    color: var(--primary-black) !important;
+    font-weight: 400 !important;
+}
+.web_logo_height{
+    height: 75px !important;
+}

@@ -1,0 +1,507 @@
+
+.support__heading {
+    color: var(--color-blue);
+    margin-top: 3rem;
+    text-align: center
+}
+
+.landing {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden !important;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1600px;
+    min-height: 645px;
+    padding: 0 4rem;
+    position: relative;
+    margin: 0 auto
+}
+
+@media screen and (max-width:1400px) {
+    .hero {
+        padding: 0 0 0 4rem
+    }
+}
+
+@media all and (max-width:890px) {
+    .hero {
+        flex-direction: column;
+        align-items: center
+    }
+}
+
+@media screen and (max-width:800px) {
+    .hero {
+        padding: 0 3rem
+    }
+}
+
+.hero__backgroundsvgs {
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: space-between
+}
+
+@media (max-width:650px) {
+    .hero__backgroundsvgs {
+        justify-content: center
+    }
+}
+
+.hero__textbox {
+    position: relative;
+    margin-top: 183px
+}
+
+@media screen and (max-width:1100px) {
+    .hero__textbox {
+        margin-top: 8rem
+    }
+}
+
+@media screen and (max-width:800px) {
+    .hero__textbox {
+        margin-top: 4rem
+    }
+}
+
+.hero__heading {
+    margin: 0 0 1rem;
+    font-size: 5rem;
+    line-height: 1.1;
+    max-width: 800px
+}
+
+@media screen and (max-width:1700px) {
+    .hero__heading {
+        font-size: 4.5rem
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .hero__heading {
+        font-size: 4rem
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .hero__heading {
+        font-size: 3.5rem
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .hero__heading {
+        font-size: 5rem
+    }
+}
+
+@media screen and (max-width:800px) {
+    .hero__heading {
+        font-size: 4rem
+    }
+}
+
+@media screen and (max-width:500px) {
+    .hero__heading {
+        font-size: 3rem
+    }
+}
+
+.hero__subheading {
+    margin: 0 0 1rem
+}
+
+@media screen and (max-width:1300px) {
+    .hero__subheading {
+        font-size: 1.25rem
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .hero__subheading {
+        font-size: var(--text-xl)
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .hero__subheading {
+        font-size: 1.25rem
+    }
+}
+
+@media screen and (max-width:800px) {
+    .hero__subheading {
+        margin-bottom: 15px
+    }
+}
+
+@media screen and (max-width:500px) {
+    .hero__subheading {
+        font-size: 1rem
+    }
+}
+
+.hero__subtitle {
+    font-size: var(--text-lg);
+    margin: 0 0 1rem;
+    color: var(--color-grey)
+}
+
+@media screen and (max-width:1100px) {
+    .hero__subtitle {
+        font-size: var(--text-md)
+    }
+}
+
+@media screen and (max-width:500px) {
+    .hero__subtitle {
+        font-size: var(--text-sm)
+    }
+}
+.hero__heading{
+    font-family: "Rubik";
+    color: var(--primary-dark-brown);
+}
+.bodytext_hero{
+    font-size: 1em;
+    font-family: "Rubik";
+    color: var(--primary-dark-brown);
+}
+.subheading{
+    font-size: 1.5em;
+    font-family: "Rubik";
+    font-weight: 500;
+    color: var(--primary-dark-brown);
+}
+.hero__image {
+    position: relative;
+    max-width: 100%;
+    margin-right: 2.5rem;
+    width: 780px
+}
+
+.hero__image img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+@media screen and (max-width:1100px) {
+    .hero__image {
+        max-width: 600px;
+        margin: 2rem 2.5rem -2rem auto
+    }
+}
+
+@media screen and (max-width:800px) {
+    .hero__image {
+        margin: 4rem auto -2rem auto;
+        width: 100%
+    }
+}
+
+.landing__notice {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 8rem
+}
+
+.landing__notice--quote::before {
+    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79.41 58.54"><defs><linearGradient id="a" y1="29.27" x2="79.41" y2="29.27" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="%23df615c"/><stop offset="1" stop-color="%23f8985e"/></linearGradient></defs><g data-name="Layer 2"><path d="M0 34C0 10 12 .36 33.63 0L36 11.45c-12.55 1.28-18.73 7.64-17.82 18h11.27v29.09H0Zm43.42 0c0-24 12-33.64 33.63-34l2.36 11.45c-12.54 1.28-18.72 7.64-17.81 18h11.27v29.09H43.42Z" style="fill:url(https://truemarket.ca/wp-content/themes/truemarket/assets/dist/styles/%23a)" data-name="Layer 1"/></g></svg>');
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 80px;
+    opacity: .5
+}
+
+.landing__notice--home {
+    margin-top: -2rem
+}
+
+.landing__noticeheadings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 95%;
+    max-width: 1550px;
+    border-radius: 62px;
+    background-color: var(--color-white);
+    box-shadow: 5px 15px 40px 5px rgba(0, 0, 0, .2);
+    padding: 4rem
+}
+
+@media screen and (max-width:800px) {
+    .landing__noticeheadings {
+        border-radius: 48px
+    }
+}
+
+@media screen and (max-width:500px) {
+    .landing__noticeheadings {
+        padding: 3rem 2rem;
+        border-radius: 34px
+    }
+}
+
+.landing__notice--heading {
+    font-size: var(--text-xxxl);
+    margin-bottom: 18px
+}
+
+@media screen and (max-width:1100px) {
+    .landing__notice--heading {
+        font-size: var(--text-xxl)
+    }
+}
+
+@media (max-width:600px) {
+    .landing__notice--heading {
+        font-size: var(--text-xl);
+        margin-bottom: 12px
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .landing__notice--subheading {
+        font-size: var(--text-md)
+    }
+}
+
+@media (max-width:600px) {
+    .landing__notice--subheading {
+        font-size: var(--text-sm)
+    }
+}
+
+/* Development Arrow Button  */
+
+.button {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-size: 1em;
+    font-family: "Rubik";
+    color: var(--primary-white);
+    text-decoration: none;
+    background: #f8985e;
+    background: linear-gradient(90deg, #f8985e 0, #df615c 50%, #f8985e 100%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    border: none;
+    border-radius: 3rem;
+    transition: all .3s ease;
+    box-shadow: var(--main-box-shadow);
+    -webkit-tap-highlight-color: transparent
+}
+
+
+.button::after {
+    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.53 9.11"><g data-name="Layer 2"><path d="M28.53 4.56 24 0v4.06H.5a.5.5 0 0 0-.5.5.5.5 0 0 0 .5.5H24v4.05Z" style="fill:%23fff" data-name="Layer 1"/></g></svg>');
+    display: block;
+    width: 28px;
+    margin-left: 1.5rem;
+    transition: all .3s ease;
+    position: relative;
+    bottom: 1px;
+    transform: scaleX(.8)
+}
+
+.button:hover {
+    background-position: 0 0
+}
+
+.button:hover::after {
+    transform: translateX(.3rem)
+}
+
+.pillbg {
+    position: absolute;
+    max-width: 1100px
+}
+
+.pillbg--landing {
+    top: 7rem;
+    right: 0;
+    min-width: 900px;
+    max-width: 1100px
+}
+
+@media screen and (max-width:1700px) {
+    .pillbg--landing {
+        transform: translateX(20%)
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .pillbg--landing {
+        transform: translateX(40%)
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .pillbg--landing {
+        transform: translateX(50%)
+    }
+}
+
+@media screen and (max-width:800px) {
+    .pillbg--landing {
+        transform: translateX(70%)
+    }
+}
+
+.pillbg--performance {
+    left: -3rem;
+    top: 518px;
+    transform: scaleX(1.3)
+}
+
+@media screen and (max-width:1400px) {
+    .pillbg--performance {
+        transform: translateX(-30%)
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .pillbg--performance {
+        top: 100px;
+        transform: translateX(-60%)
+    }
+}
+
+.linesbg {
+    position: absolute;
+    z-index: -1;
+    max-width: 500px
+}
+
+.linesbg--landing {
+    top: 14rem;
+    left: 7rem;
+    transform: scaleY(1.2)
+}
+
+@media screen and (max-width:1300px) {
+    .linesbg--landing {
+        top: 18rem;
+        left: -4rem;
+        transform: scaleY(1.3)
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .linesbg--landing {
+        transform: initial;
+        top: 26rem;
+        left: 4rem;
+        transform: scaleY(1.32)
+    }
+}
+
+@media screen and (max-width:800px) {
+    .linesbg--landing {
+        top: 20rem;
+        left: -16rem
+    }
+}
+
+@media screen and (max-width:500px) {
+    .linesbg--landing {
+        display: none
+    }
+}
+
+.linesbg--performance {
+    top: -18rem;
+    right: 6rem;
+    transform: scaleY(.95)
+}
+
+@media screen and (max-width:1100px) {
+    .linesbg--performance {
+        top: -36rem;
+        right: -2rem
+    }
+}
+
+@media screen and (max-width:800px) {
+    .linesbg--performance {
+        right: -12rem
+    }
+}
+
+.horizontal-bg-lines {
+    position: absolute;
+    width: 500px;
+    z-index: -1
+}
+
+.horizontal-bg-lines--steps {
+    top: 6rem;
+    left: 0;
+    width: 800px
+}
+
+@media screen and (max-width:1100px) {
+    .horizontal-bg-lines {
+        display: none
+    }
+}
+
+.vertical-bg-lines {
+    position: absolute;
+    z-index: -1;
+    left: 21rem;
+    top: -12rem;
+    width: 550px;
+    transform: scaleX(-1)
+}
+
+.vertical-bg-lines--lcp {
+    top: 2rem;
+    left: 6rem;
+    transform: initial;
+    width: 500px;
+    transform: initial
+}
+
+@media all and (max-width:650px) {
+    .vertical-bg-lines--lcp {
+        left: 4rem
+    }
+}
+
+@media all and (max-width:600px) {
+    .vertical-bg-lines--lcp {
+        left: 0
+    }
+}
+
+@media screen and (max-width:500px) {
+    .vertical-bg-lines {
+        display: none
+    }
+}
+
+.vertical-bg-lines--short {
+    top: -30rem;
+    transform: scaleX(-1) scaleY(.6)
+}
