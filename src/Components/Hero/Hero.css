@@ -6,11 +6,11 @@
 }
 
 .landing {
-    position: relative;
+    /* position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    overflow: hidden !important;
+    justify-content: center; */
+    overflow-x: hidden !important;
 
 }
 
@@ -24,10 +24,33 @@
     position: relative;
     margin: 0 auto
 }
+.customers_should_notice_box{
+    background-color: white !important;
+    z-index: 10000000 !important;
+    border-radius: 62px;
+    box-shadow: 5px 15px 40px 5px rgba(0, 0, 0, .2);
+    padding: 3rem;
+    margin-bottom: 100px;
+}
+.customers_should_notice_h2{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: var(--color-blue);
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
+}
 
+.amazing_business_p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
 @media screen and (max-width:1400px) {
     .hero {
-        padding: 0 0 0 4rem
+     padding: 0 0 0 3rem;
     }
 }
 
