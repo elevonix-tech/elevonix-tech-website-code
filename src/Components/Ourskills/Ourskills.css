@@ -1,0 +1,43 @@
+.our_skills_h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--primary-dark-brown);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.our_development_p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--color-blue);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.platforms_text_h6{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-dark-brown);
+    /* text-align: center; */
+    font-family: "Montserrat", sans-serif;
+}
+.platforms_text_div{
+    height: 23px;
+    width: 5px;
+    background-color: var(--primary-color);
+    border-radius: 3px;
+}
+.skills_development_square{
+    width: 120px;
+    background: rgba(168, 18, 18, 0.02);
+    border-radius: 7px;
+    padding: 15px 9px;
+}
+.skills_development_text{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--primary-dark-brown);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.skills_development_images img{
+    max-width: 70px;
+}
