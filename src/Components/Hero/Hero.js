@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className=''>
       <main class="landing">
-        <img class="linesbg linesbg--landing" src="https://truemarket.ca/wp-content/themes/truemarket/assets/dist/images/bg-asset-lines-01.svg" alt=""/>
+        <img class="linesbg linesbg--landing mt-5 pt-5" src="https://truemarket.ca/wp-content/themes/truemarket/assets/dist/images/bg-asset-lines-01.svg" alt=""/>
         <img class="pillbg pillbg--landing" src="https://truemarket.ca/wp-content/themes/truemarket/assets/dist/images/bg-asset-pill-right.svg" alt=""/>
         <div className='container'>
         <div class="hero">
@@ -21,6 +21,24 @@ const Hero = () => {
                 <img src="https://truemarket.ca/wp-content/themes/truemarket/assets/dist/images/hero-image.png" alt="Example of True Market built site" width="680" height="760" />
             </div>
         </div>
+        </div>
+        <div>
+          <div className='container'>
+            <div className='row'>
+              <div className='col-12'>
+                <div className='px-lg-5'>
+                  <div className='customers_should_notice_box'>
+                    <div className='text-center'>
+                      <h2 className='customers_should_notice_h2'>
+                      Customers Should Notice
+                      </h2>
+                      <p className='amazing_business_p'>How amazing your business is</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
     </main>
     </div>

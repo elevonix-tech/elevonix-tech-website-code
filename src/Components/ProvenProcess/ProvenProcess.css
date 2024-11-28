@@ -1,0 +1,46 @@
+.proven_process_p{
+    font-size: 1.2rem;
+    margin: 0;
+    color: var(--color-grey);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.two_variable_line {
+    height: 5px;
+    width: 70px;
+    border-radius: 5px;
+    background: linear-gradient(to right,#954f4c, #da6220);
+}
+.proven_process_box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 53px;
+    background-color: var(--primary-white);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .15);
+    margin-bottom: 1.5rem;
+}
+.proven_experience_h4{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--color-blue);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.proven_experience_h3{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-blue);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+@media only screen and (max-width:10000px) and (min-width:1200px){
+    .proven_process_p{
+        line-height: 30px;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
