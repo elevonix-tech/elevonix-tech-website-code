@@ -1,0 +1,26 @@
+.footer_category_title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-dark-brown);
+    font-family: "Montserrat", sans-serif;
+}
+.footer_category_li{
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: var(--primary-dark-brown);
+    font-family: "Montserrat", sans-serif;
+}
+/* .border_footer{
+    border-bottom: 1px solid var(--primary-dark-brown);
+} */
+.footer_text_p{
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: var(--primary-dark-brown);
+    font-family: "Montserrat", sans-serif;
+}
+.dark_brown_divider{
+    width: 3px;
+    height: 12px;
+    background-color: var(--primary-dark-brown);
+}
