@@ -29,7 +29,7 @@ const NavigationMenu = () => {
         ))}
             </div>
             </div>
-            <div className='pt-lg-4 pt-md-3 pt-3'>
+            <div className='pt-lg-4 pt-md-3 pt-3 mb-4'>
               <div className='row'>
                 <div className='col-lg-12'>
                   <div className='d-flex justify-content-center'>

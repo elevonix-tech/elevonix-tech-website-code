@@ -42,7 +42,7 @@ const Hero = () => {
               </h1>
               <p className="bodytext_hero">Elevate Your Digital Horizon</p>
               <div data-sal="slide-left" data-sal-delay="900" data-sal-easing="easeInCubic">
-                <a href="/new-websites/" className="button hero__button" target="_self">
+                <a href="/" className="button hero__button" target="_self">
                   Web Development
                 </a>
               </div>

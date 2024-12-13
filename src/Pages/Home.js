@@ -6,6 +6,7 @@ import Ourskills from '../Components/Ourskills/Ourskills'
 import Wegrowth from '../Components/Ourservices/OurServices'
 import Testimonials from '../Components/Testimonials/Testimonials'
 import Footer from '../Components/Footer/Footer'
+import Accomplishments from '../Components/OurAccomplishments/Accomplishments'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <ProvenProcess/>
       <Ourskills/>
       <Wegrowth/>
+      <Accomplishments/>
       <Testimonials/>
     </div>
   )
