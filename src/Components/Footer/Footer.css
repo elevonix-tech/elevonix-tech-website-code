@@ -19,8 +19,3 @@
     color: var(--primary-dark-brown);
     font-family: "Montserrat", sans-serif;
 }
-.dark_brown_divider{
-    width: 3px;
-    height: 12px;
-    background-color: var(--primary-dark-brown);
-}
