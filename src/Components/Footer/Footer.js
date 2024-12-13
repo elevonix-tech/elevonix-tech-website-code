@@ -32,9 +32,9 @@ const NavigationMenu = () => {
             <div className='pt-lg-4 pt-md-3 pt-3'>
               <div className='row'>
                 <div className='col-lg-12'>
-                  <div>
+                  <div className='d-flex justify-content-center'>
                       <span className='footer_text_p'>© 2024 <span className='fw-bold'>Elevonix Tech ®</span>. All rights reserved. </span>
-                      <p className='dark_brown_divider'></p>
+                      {/* <p className='dark_brown_divider'></p> */}
                   </div>
                 </div>
               </div>

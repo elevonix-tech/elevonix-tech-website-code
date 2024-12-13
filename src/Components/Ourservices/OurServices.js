@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./OurServices.css"
+import { Link } from 'react-router-dom';
 
 const OurServices = () => {
     const word = "Services."; // Word to animate
@@ -144,7 +145,6 @@ const OurServices = () => {
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="item">
                                     <div class="item__content">
                                         <div class="left">
@@ -168,13 +168,12 @@ const OurServices = () => {
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
-                            <div class="actions">
+                            <div class="actions mt-4">
                                 <div data-sal="slide-left" data-sal-delay="900" data-sal-easing="easeInCubic">
-                                    <a href="/new-websites/" class="button hero__button" target="_self">
+                                    <Link to="/request-a-quote" class="button hero__button">
                                         Request a Quote
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
