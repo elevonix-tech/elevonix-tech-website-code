@@ -1,0 +1,67 @@
+.request_a_quote_h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--primary-dark-brown);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.dark_brown_divider{
+    width: 3.5px;
+    height: 20px;
+    background-color: var(--primary-dark-brown);
+}
+.elevonix_contact_h4{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+.elevonix_contact_h4:hover{
+    color: var(--primary-dark-brown);
+}
+.fields_label_text{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--primary-dark-brown);
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 3px;
+}
+.contact_form_p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--primary-dark-brown);
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.contact_form_box{
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    padding: calc(1245px* 0.03);
+    box-shadow: 0 60px 135px rgba(0, 0, 0, .14), 0 15px 65px rgba(0, 0, 0, .14);
+}
+.error_message{
+    font-size: 0.85rem;
+}
+.form-control{
+    background: transparent !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.95rem;
+    color: var(--primary-dark-brown);
+}
+.form-control:focus, .form-control:active{
+    box-shadow: none !important;
+    outline: none !important;
+    border-color: var(--primary-dark-brown) !important;
+}
+.check_all_span{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--primary-color);
+    font-family: "Montserrat", sans-serif;
+}
