@@ -5,10 +5,12 @@ import Home from './Pages/Home';
 import RequestQuote from './Pages/RequestQuote';
 import NavbarTop from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
+import ScrollToTop from './ScrollTop/ScrollToTop';
 
 function App() {
   return (
     <Router>
+          <ScrollToTop/>
       <div>
         <NavbarTop/>
         <Routes>
