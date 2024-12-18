@@ -18,8 +18,8 @@ const Accomplishments = () => {
                         </div>
                     </div>
                     <div className='col-12'>
-                        <div className='d-flex justify-content-center pt-4 pb-3'>
-                            <div className='px-4'>
+                        <div className='d-flex justify-content-center pt-lg-5 pt-md-4 pt-3 pb-3'>
+                            <div className='px-lg-5 px-md-4 px-3'>
                                 <div className='text-center'>
                                     <img src={Icon1}></img>
                                 </div>
@@ -29,7 +29,7 @@ const Accomplishments = () => {
                                     </h4>
                                 </div>
                             </div>
-                            <div className='px-4'>
+                            <div className='px-lg-5 px-md-4 px-3'>
                                 <div className='text-center'>
                                     <img src={Icon2}></img>
                                 </div>
@@ -39,7 +39,7 @@ const Accomplishments = () => {
                                     </h4>
                                 </div>
                             </div>
-                            <div className='px-4'>
+                            <div className='px-lg-5 px-md-4 px-3'>
                                 <div className='text-center'>
                                     <img src={Icon3}></img>
                                 </div>
@@ -52,7 +52,7 @@ const Accomplishments = () => {
                                     </h4>
                                 </div>
                             </div>
-                            <div className='px-4'>
+                            <div className='px-lg-5 px-md-4 px-3'>
                                 <div className='text-center'>
                                     <img src={Icon4}></img>
                                 </div>
@@ -63,7 +63,7 @@ const Accomplishments = () => {
                                     </h4>
                                 </div>
                             </div>
-                            <div className='px-4'>
+                            <div className='px-lg-5 px-md-4 px-3'>
                                 <div className='text-center'>
                                     <img src={Icon5}></img>
                                 </div>
