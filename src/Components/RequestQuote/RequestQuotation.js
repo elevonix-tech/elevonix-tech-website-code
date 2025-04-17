@@ -62,7 +62,7 @@ const RequestQuotation = () => {
 
     const handleSubmit = async (values, { resetForm }) => {
         try {
-            const response = await fetch('http://localhost:5000/api/quotation', {
+            const response = await fetch('https://backend.elevonixtech.com/api/quotation', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
