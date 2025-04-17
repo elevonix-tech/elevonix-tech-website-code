@@ -1,0 +1,42 @@
+name: Elevonix Frontend Deployment
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Nodejs
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20.19.0
+
+      - name: Clean npm cache and reinstall
+        run: |
+          rm -rf node_modules package-lock.json
+          npm cache clean --force
+          npm install ajv@^6 ajv-keywords@^3 --save-dev
+          npm install --legacy-peer-deps
+
+      - name: Build application
+        run: |
+          #echo "${{ secrets.ENV_FILE }}" > .env
+          CI="" npm run build
+
+      - name: Deploy
+        uses: easingthemes/ssh-deploy@main
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          REMOTE_HOST: ${{ secrets.SSH_HOST }}
+          REMOTE_USER: ${{ secrets.USERNAME }}
+          SOURCE: 'build/'
+          TARGET: "/var/www/elevonix_web"
+          SCRIPT_BEFORE: |
+            rm -rf /var/www/elevonix_web
