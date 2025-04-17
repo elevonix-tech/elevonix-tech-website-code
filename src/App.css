@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+/* Make modal full-width and remove default borders */
+.custom-modal .modal-content {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Background image */
+.custom-modal-body {
+  background: url("https://source.unsplash.com/600x400/?technology,future") center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 50px 30px;
+  border-radius: 12px;
+}
+
+/* Modal text styling */
+.modal-content-wrapper {
+  background: #a19f9f;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.modal-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.modal-text {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+/* Custom Close Button */
+.close-button {
+  background: #ffcc00;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.close-button:hover {
+  background: #ff9900;
+}

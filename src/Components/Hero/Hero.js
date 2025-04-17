@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import "./Hero.css";
+import { Button, Modal } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const word = "ebsites."; // Word to animate
@@ -27,7 +29,10 @@ const Hero = () => {
 
     return () => clearInterval(interval); // Cleanup on unmount
   }, [forward, word.length]);
+  const [show, setShow] = useState(false);
 
+  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false);
   return (
     <div className=''>
       <main className="landing">
@@ -42,9 +47,23 @@ const Hero = () => {
               </h1>
               <p className="bodytext_hero">Elevate Your Digital Horizon</p>
               <div data-sal="slide-left" data-sal-delay="900" data-sal-easing="easeInCubic">
-                <a href="/" className="button hero__button" target="_self">
+                <Link to="" className="button hero__button" target="_self" onClick={handleShow}>
                   Web Development
-                </a>
+                </Link>
+                {/* Bootstrap Modal */}
+                <Modal show={show} onHide={handleClose} centered dialogClassName="custom-modal">
+                  <Modal.Body className="custom-modal-body">
+                    <div className="modal-content-wrapper">
+                      <h2 className="modal-title">✨ Something New is Coming! ✨</h2>
+                      <p className="modal-text">
+                        🚀 We're working on an exciting new feature. Stay tuned!
+                      </p>
+                      <Button variant="light" className="close-button" onClick={handleClose}>
+                        Got It!
+                      </Button>
+                    </div>
+                  </Modal.Body>
+                </Modal>
               </div>
             </div>
             <div className="hero__image" data-sal="slide-up" data-sal-delay="100" data-sal-easing="easeInCubic">

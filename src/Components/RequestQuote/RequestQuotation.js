@@ -60,9 +60,28 @@ const RequestQuotation = () => {
         ],
     };
 
-    const handleSubmit = (values) => {
-        console.log("Form Submitted Values:", values);
+    const handleSubmit = async (values, { resetForm }) => {
+        try {
+            const response = await fetch('http://localhost:5000/api/quotation', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(values),
+            });
+    
+            if (response.ok) {
+                alert("Quotation submitted successfully!");
+                resetForm();
+            } else {
+                alert("Failed to submit quotation.");
+            }
+        } catch (error) {
+            console.error("Submission error:", error);
+            alert("An error occurred while submitting the form.");
+        }
     };
+    
     return (
         <div>
             <div className='container'>
